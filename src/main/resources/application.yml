@@ -1,0 +1,7 @@
+demo-service:
+  ribbon:
+    listOfServers: http://localhost:${wiremock.server.port}
+
+some-other-service:
+  ribbon:
+    listOfServers: http://localhost:${wiremock.server.port}
